@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+/* Formatações gerais */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	overflow-y: hidden;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Formatações do container */
+
+#container {
+	height: 65vh;
+	width: 750px;
+	margin: 17.5vh auto;
+	display: flex;
+}
+
+.caixa1 {
+	width: 250px;
+	height: 65vh;
+	background:  hsl(31, 77%, 52%);
+	border-radius: 7px 0 0 7px;
+	padding: 40px;
+}
+
+.caixa2 {
+	width: 250px;
+	height: 65vh;
+	background: hsl(184, 100%, 22%);
+	padding: 40px;
+}
+
+.caixa3 {
+	width: 250px;
+	height: 65vh;
+	background: hsl(179, 100%, 13%);
+	border-radius: 0 7px 7px 0;
+	padding: 40px 30px 40px 40px;
+}
+
+p {
+	color: hsla(0, 0%, 100%, 0.75);
+	font-size: 13px;
+	line-height: 22px;
+	margin-bottom: 50px;
+}
+
+img {
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-bottom: 20px;
+	color: hsl(0, 0%, 95%);
+	font-family: 'Big Shoulders Display', cursive;
+	font-size: 2.1em;
+}
+
+input {
+	height: 40px;
+	border-radius: 180px;
+	width: 120px;
+	border: none;
+}
+
+.caixa1 input {
+	color: hsl(31, 77%, 52%);
+	font-weight: 700;
+}
+
+.caixa2 input {
+	color: hsl(184, 100%, 22%);
+	font-weight: 700;
+}
+
+.caixa3 input {
+	color: hsl(179, 100%, 13%);
+	font-weight: 700;
+}
+
+
+
+
+
+.caixa1 input:hover {
+	background: hsl(31, 77%, 52%);
+	border: 2px solid white;
+	color: white;
+	cursor: pointer;
+}
+
+.caixa2 input:hover {
+	background: hsl(184, 100%, 22%);
+	border: 2px solid white;
+	color: white;
+	cursor: pointer;
+}
+
+.caixa3 input:hover {
+	background: hsl(179, 100%, 13%);
+	border: 2px solid white;
+	color: white;
+	cursor: pointer;
+}
