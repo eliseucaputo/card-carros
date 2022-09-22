@@ -88,10 +88,6 @@ input {
 	font-weight: 700;
 }
 
-
-
-
-
 .caixa1 input:hover {
 	background: hsl(31, 77%, 52%);
 	border: 2px solid white;
@@ -111,4 +107,27 @@ input {
 	border: 2px solid white;
 	color: white;
 	cursor: pointer;
+}
+
+@media (max-width: 750px) {
+	body {
+		overflow-y: auto;
+	}
+
+	#container {
+		height: 195vh;
+		width: 250px;
+		margin: 0 auto;
+		overflow-y: hidden;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.caixa1 {
+		border-radius: 7px 7px 0 0;
+	}
+
+	.caixa3 {
+		border-radius: 0 0 7px 7px;
+	}
 }
